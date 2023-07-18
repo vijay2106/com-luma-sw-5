@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="142741" started-at="2023-07-17T15:13:35 BST" finished-at="2023-07-17T15:15:58 BST">
+    <groups>
+      <group name="regression">
+        <method signature="GearTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuite.GearTest"/>
+        <method signature="MenTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuite.MenTest"/>
+        <method signature="WomenTest.verifyTheSortByPriceFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByPriceFilter" class="com.softwaretestingboard.magento.testsuite.WomenTest"/>
+        <method signature="WomenTest.verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByProductNameFilter" class="com.softwaretestingboard.magento.testsuite.WomenTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="WomenTest.verifyTheSortByPriceFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByPriceFilter" class="com.softwaretestingboard.magento.testsuite.WomenTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GearTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuite.GearTest"/>
+        <method signature="MenTest.userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="userShouldAddProductSuccessFullyToShoppingCart" class="com.softwaretestingboard.magento.testsuite.MenTest"/>
+        <method signature="WomenTest.verifyTheSortByPriceFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByPriceFilter" class="com.softwaretestingboard.magento.testsuite.WomenTest"/>
+        <method signature="WomenTest.verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByProductNameFilter" class="com.softwaretestingboard.magento.testsuite.WomenTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="142741" started-at="2023-07-17T15:13:35 BST" finished-at="2023-07-17T15:15:58 BST">
+      <class name="com.softwaretestingboard.magento.testsuite.MenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="setUp" is-config="true" duration-ms="2747" started-at="2023-07-17T15:15:14 BST" finished-at="2023-07-17T15:15:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="inIt" is-config="true" duration-ms="3" started-at="2023-07-17T15:15:17 BST" finished-at="2023-07-17T15:15:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="userShouldAddProductSuccessFullyToShoppingCart" duration-ms="40424" started-at="2023-07-17T15:15:17 BST" finished-at="2023-07-17T15:15:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuite.MenTest@78186a70]" name="tearDown" is-config="true" duration-ms="687" started-at="2023-07-17T15:15:57 BST" finished-at="2023-07-17T15:15:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuite.MenTest -->
+      <class name="com.softwaretestingboard.magento.testsuite.WomenTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="setUp" is-config="true" duration-ms="2792" started-at="2023-07-17T15:14:28 BST" finished-at="2023-07-17T15:14:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="inIt" is-config="true" duration-ms="6" started-at="2023-07-17T15:14:31 BST" finished-at="2023-07-17T15:14:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheSortByPriceFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByPriceFilter" duration-ms="19147" started-at="2023-07-17T15:14:31 BST" finished-at="2023-07-17T15:14:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSortByPriceFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="tearDown" is-config="true" duration-ms="701" started-at="2023-07-17T15:14:50 BST" finished-at="2023-07-17T15:14:51 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="setUp" is-config="true" duration-ms="2668" started-at="2023-07-17T15:14:51 BST" finished-at="2023-07-17T15:14:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="inIt" is-config="true" duration-ms="1" started-at="2023-07-17T15:14:54 BST" finished-at="2023-07-17T15:14:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheSortByProductNameFilter()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="verifyTheSortByProductNameFilter" duration-ms="19147" started-at="2023-07-17T15:14:54 BST" finished-at="2023-07-17T15:15:13 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheSortByProductNameFilter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuite.WomenTest@646007f4]" name="tearDown" is-config="true" duration-ms="698" started-at="2023-07-17T15:15:13 BST" finished-at="2023-07-17T15:15:14 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuite.WomenTest -->
+      <class name="com.softwaretestingboard.magento.testsuite.GearTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="setUp" is-config="true" duration-ms="3786" started-at="2023-07-17T15:13:35 BST" finished-at="2023-07-17T15:13:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="inIt" is-config="true" duration-ms="26" started-at="2023-07-17T15:13:39 BST" finished-at="2023-07-17T15:13:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldAddProductSuccessFullyToShoppingCart()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="userShouldAddProductSuccessFullyToShoppingCart" duration-ms="48168" started-at="2023-07-17T15:13:39 BST" finished-at="2023-07-17T15:14:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldAddProductSuccessFullyToShoppingCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.softwaretestingboard.magento.testsuite.GearTest@7a30d1e6]" name="tearDown" is-config="true" duration-ms="725" started-at="2023-07-17T15:14:27 BST" finished-at="2023-07-17T15:14:28 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.softwaretestingboard.magento.testsuite.GearTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
